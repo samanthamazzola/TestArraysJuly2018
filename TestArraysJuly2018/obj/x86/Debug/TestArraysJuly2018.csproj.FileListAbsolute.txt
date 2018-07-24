@@ -1,0 +1,6 @@
+/Users/samanthamazzola/Projects/TestArraysJuly2018/TestArraysJuly2018/bin/Debug/TestArraysJuly2018.exe
+/Users/samanthamazzola/Projects/TestArraysJuly2018/TestArraysJuly2018/bin/Debug/TestArraysJuly2018.pdb
+/Users/samanthamazzola/Projects/TestArraysJuly2018/TestArraysJuly2018/obj/x86/Debug/TestArraysJuly2018.csprojResolveAssemblyReference.cache
+/Users/samanthamazzola/Projects/TestArraysJuly2018/TestArraysJuly2018/obj/x86/Debug/TestArraysJuly2018.csproj.CoreCompileInputs.cache
+/Users/samanthamazzola/Projects/TestArraysJuly2018/TestArraysJuly2018/obj/x86/Debug/TestArraysJuly2018.exe
+/Users/samanthamazzola/Projects/TestArraysJuly2018/TestArraysJuly2018/obj/x86/Debug/TestArraysJuly2018.pdb
