@@ -1,8 +1,5 @@
 ﻿<Properties StartupConfiguration="{9D2B42BC-1B03-4076-AB01-F0A7759EEE2E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestArraysJuly2018/Program.cs">
-    <Files>
-      <File FileName="TestArraysJuly2018/Program.cs" Line="13" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -15,7 +12,11 @@
       </Pad>
       <Pad Id="ClassPad">
         <State name="__root__">
-          <Node name="TestArraysJuly2018" expanded="True" selected="True" />
+          <Node name="TestArraysJuly2018" expanded="True">
+            <Node name="TestArraysJuly2018" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -28,6 +29,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestArraysJuly2018 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TestArraysJuly2018 PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

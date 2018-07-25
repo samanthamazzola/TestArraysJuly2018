@@ -31,6 +31,17 @@ namespace TestArraysJuly2018
             }
 
             Console.WriteLine($"Average = {sum / ages.Length}");
+
+            // find the max in the array (need to scan the whole thing to see if you have the max element)
+            // go through each and see if the next one is larger than the one you have, if so keep going and comparing til max
+            int max = ages[0]; //assume max is the first element [0] 
+            for (int i = 0; i < ages.Length; i++)
+            {
+                if (ages[i] > max) // comparing the apple with the next one, to see if the new one is bigger. //compare the next element to the max
+                {
+                    max = ages[i]; // so max will now be equal to the age of i <-- i will be whatever is bigger
+                }
+            } 
      
             // creates an array (for interest rates) and fills it with elements (initializes)
             // double[] interestRates = { 12.3, 16.7, 20.1 };
