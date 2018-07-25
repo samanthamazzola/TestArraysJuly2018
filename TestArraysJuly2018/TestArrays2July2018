@@ -1,0 +1,42 @@
+using System;
+//using System.Linq; // need if using lambda expression
+
+namespace TestArrays2July2018
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            // string[] names = {"Drew","Jacob" };
+
+            int[] ar = { 12,1,0,9,23,4,7,8,9}; // elements in the array call "ar"
+
+            //lambda expression used along with LINQ // finding where the first num is odd
+            //Console.WriteLine(ar.Where(x => x % 2 == 1).Count()); // arrow => is a lambda expression
+
+            //int[] copy = ar;  // possible logical error because both the original and copy point to the same object
+
+            //making a clone instead of copy! (this is the operation and will allow you to keep the original array)
+            int[] copy = new int[ar.Length]; //make empty array with the same space
+            Array.Copy(ar, copy, ar.Length);
+
+            // C# method called Array. 
+            Array.Sort(copy); // Sort method which is incrementing. This method permenantly changes the order of the array to this 
+            Array.Reverse(copy); //now listing in reverse order
+
+            foreach (int item in copy)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("==============");
+
+            foreach (int item in ar)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine(Array.IndexOf(ar, 20)); //want to see if your array has a 20 inside it with IndexOf
+            //Console.WriteLine(Array.Clear());
+        }
+    }
+}
